@@ -61,7 +61,6 @@ def turn(board)
   end
 end
 
-<<<<<<< HEAD
 def turn_count(board)
   counter = 0
   board.each do |e|
@@ -113,10 +112,4 @@ def play(board)
   end
 end
 
-
-
-  
-=======
-
->>>>>>> 3db460b643edaf8bcc9134ad8ea539f89eda5402
   
