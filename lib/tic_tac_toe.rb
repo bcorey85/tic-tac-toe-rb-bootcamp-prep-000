@@ -101,10 +101,3 @@ def play(board)
   end
 end
 
-
-
-  
-=======
-
->>>>>>> 3db460b643edaf8bcc9134ad8ea539f89eda5402
-  
