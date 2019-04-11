@@ -24,13 +24,7 @@ def input_to_index(input)
 end
 
 def move(board, index, char)
-<<<<<<< HEAD
   !position_taken?(board, index) ? board[index] = char : nil
-=======
-  if !position_taken?(board, index)
-    board[index] = char
-  end
->>>>>>> 3db460b643edaf8bcc9134ad8ea539f89eda5402
 end
 
 def position_taken?(board,index)
@@ -42,19 +36,11 @@ def valid_move?(board, index)
 end
 
 def turn(board)
-<<<<<<< HEAD
-  puts "Please enter 1-9:"
-  input = gets.strip
-  index = input_to_index(input)
-  if valid_move?(board, index)
-    move(board, index, current_player(board))
-=======
   puts "Please enter: 1-9"
   input = gets.strip
   index = input_to_index(input)
   if valid_move?(board, input_to_index(input))
     move(board, index)
->>>>>>> 3db460b643edaf8bcc9134ad8ea539f89eda5402
     display_board(board)
   else
     turn(board)
@@ -111,5 +97,7 @@ def play(board)
     puts "Cat's Game!"
   end
 end
+
+
 
   
