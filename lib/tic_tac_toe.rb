@@ -50,7 +50,6 @@ def turn(board)
   end
 end
 
-<<<<<<< HEAD
 def turn_count(board)
   counter = 0
   board.each do |e|
