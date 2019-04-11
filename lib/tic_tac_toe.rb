@@ -23,8 +23,10 @@ def input_to_index(input)
   index = input.to_i - 1 
 end
 
-def move(board, index, player)
-  board[index] = player
+def move(board, index, char)
+  if !position_taken?(board, index)
+    board[index] = char
+  end
 end
 
 def position_taken?(board,index)
