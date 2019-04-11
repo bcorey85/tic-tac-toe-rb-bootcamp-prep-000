@@ -24,13 +24,10 @@ def input_to_index(input)
 end
 
 def move(board, index, char)
-<<<<<<< HEAD
   !position_taken?(board, index) ? board[index] = char : nil
-=======
   if !position_taken?(board, index)
     board[index] = char
   end
->>>>>>> 3db460b643edaf8bcc9134ad8ea539f89eda5402
 end
 
 def position_taken?(board,index)
